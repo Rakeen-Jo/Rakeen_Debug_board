@@ -1,0 +1,5 @@
+OSCPresenter.hpp:28:13:OSCPresenter::~OSCPresenter()	0	static
+OSCPresenter.cpp:10:6:virtual void OSCPresenter::activate()	0	static
+OSCPresenter.hpp:28:13:virtual OSCPresenter::~OSCPresenter()	8	static
+OSCPresenter.hpp:28:13:virtual void* OSCPresenter::_ZThn4_N12OSCPresenterD1Ev()	0	static
+OSCPresenter.cpp:4:1:OSCPresenter::OSCPresenter(OSCView&)	8	static

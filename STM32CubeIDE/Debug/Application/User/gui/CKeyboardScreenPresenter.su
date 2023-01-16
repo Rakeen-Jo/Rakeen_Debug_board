@@ -1,0 +1,22 @@
+Types.hpp:94:5:touchgfx::colortype::colortype(uint32_t)	16	static
+Types.hpp:146:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+Presenter.hpp:40:18:virtual void touchgfx::Presenter::activate()	16	static
+Presenter.hpp:50:18:virtual void touchgfx::Presenter::deactivate()	16	static
+Presenter.hpp:55:13:touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:55:13:virtual touchgfx::Presenter::~Presenter()	16	static
+Presenter.hpp:61:5:touchgfx::Presenter::Presenter()	16	static
+ModelListener.hpp:9:5:ModelListener::ModelListener()	16	static
+ModelListener.hpp:11:13:ModelListener::~ModelListener()	16	static
+ModelListener.hpp:11:13:virtual ModelListener::~ModelListener()	16	static
+CKeyboardScreenPresenter.hpp:28:13:CKeyboardScreenPresenter::~CKeyboardScreenPresenter()	16	static
+CKeyboardScreenPresenter.hpp:28:13:virtual CKeyboardScreenPresenter::~CKeyboardScreenPresenter()	16	static
+TypedText.hpp:62:14:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	16	static
+TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	16	static
+CKeyboardScreenPresenter.cpp:4:1:CKeyboardScreenPresenter::CKeyboardScreenPresenter(CKeyboardScreenView&)	16	static
+CKeyboardScreenPresenter.cpp:10:6:virtual void CKeyboardScreenPresenter::activate()	16	static
+CKeyboardScreenPresenter.cpp:15:6:virtual void CKeyboardScreenPresenter::deactivate()	16	static
+Keyboard.hpp:91:7:touchgfx::Keyboard::Layout::~Layout()	16	static
+CKeyboardScreenPresenter.cpp:18:1:void __static_initialization_and_destruction_0(int, int)	32	static
+CKeyboardScreenPresenter.cpp:18:1:cpp)	8	static
+CKeyboardScreenPresenter.cpp:18:1:cpp)	8	static

@@ -1,0 +1,5 @@
+Ser_monPresenter.hpp:28:13:Ser_monPresenter::~Ser_monPresenter()	0	static
+Ser_monPresenter.cpp:10:6:virtual void Ser_monPresenter::activate()	0	static
+Ser_monPresenter.hpp:28:13:virtual Ser_monPresenter::~Ser_monPresenter()	8	static
+Ser_monPresenter.hpp:28:13:virtual void* Ser_monPresenter::_ZThn4_N16Ser_monPresenterD1Ev()	0	static
+Ser_monPresenter.cpp:4:1:Ser_monPresenter::Ser_monPresenter(Ser_monView&)	8	static

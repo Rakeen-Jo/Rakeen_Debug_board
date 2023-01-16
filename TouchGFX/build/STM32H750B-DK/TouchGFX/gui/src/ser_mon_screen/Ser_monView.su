@@ -1,0 +1,10 @@
+Screen.hpp:107:18:virtual void touchgfx::Screen::afterTransition()	0	static
+Screen.hpp:157:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	0	static
+Ser_monView.hpp:11:13:Ser_monView::~Ser_monView()	0	static
+Ser_monView.cpp:17:6:virtual void Ser_monView::tearDownScreen()	0	static
+Ser_monView.cpp:22:6:virtual void Ser_monView::KeyboardSelected(uint8_t)	0	static
+Ser_monView.cpp:12:6:virtual void Ser_monView::setupScreen()	0	static
+Ser_monView.cpp:27:6:virtual void Ser_monView::InputText()	24	static
+Ser_monView.cpp:44:6:virtual void Ser_monView::handleTickEvent()	8	static
+Ser_monView.hpp:11:13:virtual Ser_monView::~Ser_monView()	8	static
+Ser_monView.cpp:7:1:Ser_monView::Ser_monView()	8	static

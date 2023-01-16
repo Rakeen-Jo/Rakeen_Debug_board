@@ -1,0 +1,1226 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "Background_circuit_white.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScalableImage",
+            "Filename": "cat2.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage2",
+            "X": 17,
+            "Y": 54,
+            "Width": 96,
+            "Height": 153,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScalableImage",
+            "Filename": "cat1.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage3",
+            "X": 362,
+            "Y": 76,
+            "Width": 109,
+            "Height": 187,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 7,
+            "Y": 254,
+            "Width": 135,
+            "Height": 13,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_1.png",
+            "Released": "BTN_1.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId19",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_SER_MON",
+            "X": 142,
+            "Y": 52,
+            "Width": 183,
+            "Height": 46,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_2.png",
+            "Released": "BTN_2.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId20",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_OSC",
+            "X": 142,
+            "Y": 113,
+            "Width": 183,
+            "Height": 46,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_3.png",
+            "Released": "BTN_3.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId21",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_SETTINGS",
+            "X": 142,
+            "Y": 172,
+            "Width": 183,
+            "Height": 46,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_SER_MON"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Ser_mon"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_OSC"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "OSC"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_SETTINGS"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Settings"
+            }
+          }
+        ],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "Background_circuit_white.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId9",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1_1",
+            "X": 7,
+            "Y": 254,
+            "Width": 135,
+            "Height": 13,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId16",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_RETURN",
+            "X": 7,
+            "Y": 6,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "Name": "background_scroll",
+            "X": 7,
+            "Y": 56,
+            "Width": 467,
+            "Height": 175,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "TextArea",
+                "TextId": "SingleUseId25",
+                "TextRotation": "0",
+                "Color": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "Alpha": 255,
+                "AutoSize": false,
+                "LineSpacing": 0,
+                "Wildcard1": {
+                  "UseBuffer": true,
+                  "BufferSize": 512
+                },
+                "Name": "textAreaTerminal",
+                "X": 5,
+                "Y": 3,
+                "Width": 457,
+                "Height": 391,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "ScrollableContainer",
+            "HorizontalScrollEnabled": false,
+            "VerticalScrollEnabled": true,
+            "ScrollbarsVisible": false,
+            "ScrollbarsVisibleOnPressed": true,
+            "ScrollbarsColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "ScrollbarsAlpha": 255,
+            "Name": "scrollableContainer1",
+            "X": 7,
+            "Y": 56,
+            "Width": 467,
+            "Height": 175,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "BorderColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "BorderSize": 1,
+            "Alpha": 255,
+            "Name": "boxWithBorder1",
+            "X": 7,
+            "Y": 39,
+            "Width": 467,
+            "Height": 17,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "FlexButton",
+            "Alpha": 255,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "X": 0,
+                "Y": 0,
+                "Width": 439,
+                "Height": 17,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorBorderReleased": {
+                  "Red": 0,
+                  "Green": 0,
+                  "Blue": 0
+                },
+                "ColorBorderPressed": {
+                  "Red": 0,
+                  "Green": 0,
+                  "Blue": 0
+                }
+              }
+            ],
+            "Name": "BTN_TEXTBOX",
+            "X": 7,
+            "Y": 39,
+            "Width": 439,
+            "Height": 17,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId32",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId34",
+              "UseBuffer": true,
+              "BufferSize": 50
+            },
+            "Name": "textAreaInputbox",
+            "X": 11,
+            "Y": 41,
+            "Width": 424,
+            "Height": 15,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId26",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_PORT",
+            "X": 403,
+            "Y": 238,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId27",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_CLEAR",
+            "X": 326,
+            "Y": 238,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "FlexButton",
+            "Alpha": 255,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "X": 0,
+                "Y": 0,
+                "Width": 29,
+                "Height": 17,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 1,
+                "ColorReleased": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorPressed": {
+                  "Red": 255,
+                  "Green": 255,
+                  "Blue": 255
+                },
+                "ColorBorderReleased": {
+                  "Red": 0,
+                  "Green": 0,
+                  "Blue": 0
+                },
+                "ColorBorderPressed": {
+                  "Red": 0,
+                  "Green": 0,
+                  "Blue": 0
+                }
+              }
+            ],
+            "Name": "BTN_INPUT",
+            "X": 445,
+            "Y": 39,
+            "Width": 29,
+            "Height": 17,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScalableImage",
+            "Filename": "enter.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage2",
+            "X": 451,
+            "Y": 40,
+            "Width": 17,
+            "Height": 15,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_RETURN"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "BTN_TEXTBOX_Pressed",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_TEXTBOX"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Ser_mon keyboardSelectedVar",
+              "ParameterValue": "0",
+              "ActionComponent": "Ser_mon"
+            }
+          },
+          {
+            "InteractionName": "KeyboardSelected",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Ser_mon keyboardSelectedVar"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "KeyboardSelected"
+            }
+          },
+          {
+            "InteractionName": "gotoCKeyboardScreen",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "KeyboardSelected"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "CKeyboardScreen"
+            }
+          },
+          {
+            "InteractionName": "InputText",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_INPUT"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "InputText"
+            }
+          },
+          {
+            "InteractionName": "Clear_buffer",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_CLEAR"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "Clear_buffer"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "keyboardSelectedVar",
+            "HasValue": true,
+            "ValueType": "uint8_t"
+          }
+        ],
+        "Name": "Ser_mon",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "Background_circuit_white.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId29",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1_1",
+            "X": 7,
+            "Y": 254,
+            "Width": 135,
+            "Height": 13,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId30",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_RETURN",
+            "X": 7,
+            "Y": 6,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId31",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_ENTER",
+            "X": 403,
+            "Y": 238,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_RETURN"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Ser_mon"
+            }
+          },
+          {
+            "InteractionName": "ButtonOK",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_ENTER"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "getKeyboardBuffer"
+            }
+          },
+          {
+            "InteractionName": "ChangedPrevScreen",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "ButtonOK"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Ser_mon"
+            }
+          }
+        ],
+        "Name": "CKeyboardScreen",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "Background_circuit_white.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId11",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 7,
+            "Y": 254,
+            "Width": 135,
+            "Height": 13,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId17",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_RETURN",
+            "X": 7,
+            "Y": 6,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_RETURN"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Main"
+            }
+          }
+        ],
+        "Name": "OSC",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "ScalableImage",
+            "Filename": "Background_circuit_white.png",
+            "Alpha": 255,
+            "ScalingAlgorithm": "Nearest-neighbor",
+            "Name": "scalableImage1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": true,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId13",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1_1",
+            "X": 7,
+            "Y": 254,
+            "Width": 135,
+            "Height": 13,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "BTN_Return.png",
+            "Released": "BTN_Return.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId18",
+            "ReleasedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "PressedColor": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "TextRotation": "0",
+            "Name": "BTN_RETURN",
+            "X": 7,
+            "Y": 6,
+            "Width": 71,
+            "Height": 27,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "BTN_RETURN"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "West",
+              "ActionComponent": "Main"
+            }
+          }
+        ],
+        "Name": "Settings",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "Name": "background_scroll",
+            "X": 0,
+            "Y": 0,
+            "Width": 467,
+            "Height": 15,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId36",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId37",
+              "UseBuffer": true,
+              "BufferSize": 50
+            },
+            "Name": "textArealist",
+            "X": 4,
+            "Y": 0,
+            "Width": 459,
+            "Height": 15,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "CustomContainer1",
+        "X": 7,
+        "Y": 36,
+        "Width": 467,
+        "Height": 15
+      }
+    ],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId11",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId13",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId16",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId17",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId18",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId19",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId20",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId21",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "EnteredText",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "NumMode",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "AlphaMode",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "SingleUseId29",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId30",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId31",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId9",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId25",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId32",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId34",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId26",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId27",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId36",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId37",
+        "IsResource": false
+      }
+    ],
+    "Name": "STM32H750B-DK",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 16,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      16
+    ],
+    "AvailableLCDs": {
+      "16": "LCD16bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD16bpp": {
+        "Id": "LCD16bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32H750B-DK.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape"
+  },
+  "Version": "4.16.1",
+  "CreatedBy": "4.16.1"
+}

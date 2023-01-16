@@ -1,0 +1,9 @@
+CKeyboardScreenPresenter.hpp:28:13:CKeyboardScreenPresenter::~CKeyboardScreenPresenter()	0	static
+TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	0	static
+CKeyboardScreenPresenter.cpp:10:6:virtual void CKeyboardScreenPresenter::activate()	0	static
+Keyboard.hpp:91:7:touchgfx::Keyboard::Layout::~Layout()	0	static
+CKeyboardScreenPresenter.hpp:28:13:virtual CKeyboardScreenPresenter::~CKeyboardScreenPresenter()	8	static
+TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	8	static
+CKeyboardScreenPresenter.hpp:28:13:virtual void* CKeyboardScreenPresenter::_ZThn4_N24CKeyboardScreenPresenterD1Ev()	0	static
+CKeyboardScreenPresenter.cpp:4:1:CKeyboardScreenPresenter::CKeyboardScreenPresenter(CKeyboardScreenView&)	8	static
+CKeyboardScreenPresenter.cpp:18:1:cpp)	36	static
